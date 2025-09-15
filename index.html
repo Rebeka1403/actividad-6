@@ -9,7 +9,7 @@
   <body>
     <a-scene mindar-image="imageTargetSrc: targets6.mind; maxTrack: 2" color-space="sRGB" renderer="colorManagement: true, physicallyCorrectLights" vr-mode-ui="enabled: false" device-orientation-permission-ui="enabled: false">
       <a-assets>
-        <a-asset-item id="CATModel" src="CAT.glb"></a-asset-item>
+        <a-asset-item id="ronotModel" src="robot.glb"></a-asset-item>
         <a-asset-item id="smurfModel" src="smurf.glb"></a-asset-item>
       </a-assets>
 
@@ -19,7 +19,7 @@
         <a-gltf-model rotation="0 0 0 " position="0 0 0" scale="1 1 1" src="#smurfModel" animation-mixer>
       </a-entity>
       <a-entity mindar-image-target="targetIndex: 1">
-        <a-gltf-model rotation="0 90 0 " position="0 0 0" scale="1 1 1" src="#CATModel" animation-mixer>
+        <a-gltf-model rotation="0 90 0 " position="0 0 0" scale="1 1 1" src="#robotModel" animation-mixer>
       </a-entity>
     </a-scene>
   </body>
